@@ -338,7 +338,7 @@
                       'action': [
                         'bash',
                         '-c',
-                        'cd lib/bootstrap && dotnet build --configuration $(BUILDTYPE)'
+                        'dotnet build --configuration $(BUILDTYPE)'
                       ]
                     }
                   ]
