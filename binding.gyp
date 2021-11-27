@@ -324,7 +324,7 @@
                       'action': [
                         'bash',
                         '-c',
-                        'cd lib/bootstrap && dotnet restore'
+                        'dotnet restore'
                       ]
                     },
                     {
